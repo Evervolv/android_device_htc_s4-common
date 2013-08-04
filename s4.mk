@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.gps.qmienabled=true \
     ro.baseband.arch=msm \
+    ro.opengles.version=131072 \
     ro.product.wireless=WCN3660 \
     ro.qualcomm.bt.hci_transport=smd
 
