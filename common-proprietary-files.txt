@@ -7,7 +7,6 @@ bin/charging
 bin/hci_qcomm_init
 bin/mm-qcamera-daemon
 bin/mpdecision
-bin/netmgrd
 bin/rmt_storage
 bin/thermald
 
@@ -83,7 +82,6 @@ etc/firmware/q6.b06
 etc/firmware/q6.mdt
 
 # Radio
-lib/libnetmgr.so
 lib/libqc-opt.so
 
 # WLAN
