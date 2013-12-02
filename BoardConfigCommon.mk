@@ -87,5 +87,8 @@ WIFI_DRIVER_MODULE_NAME := prima_wlan
 WIFI_DRIVER_MODULE_PATH := "/system/lib/modules/prima_wlan.ko"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# Misc
+USE_SET_METADATA := false
+
 # inherit from the proprietary version
 -include vendor/htc/s4-common/BoardConfigVendor.mk
