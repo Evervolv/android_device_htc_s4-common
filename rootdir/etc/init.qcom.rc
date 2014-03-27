@@ -355,16 +355,9 @@ on property:sys.boot_completed=1
     write /sys/devices/system/cpu/cpu1/online 1
     write /sys/devices/system/cpu/cpu2/online 1
     write /sys/devices/system/cpu/cpu3/online 1
-    chown -h system /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay
-    chown -h system /sys/devices/system/cpu/cpufreq/interactive/boost
-    chown -h system /sys/devices/system/cpu/cpufreq/interactive/boostpulse
-    chown -h system /sys/devices/system/cpu/cpufreq/interactive/boostpulse_duration
-    chown -h system /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load
-    chown -h system /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq
-    chown -h system /sys/devices/system/cpu/cpufreq/interactive/io_is_busy
-    chown -h system /sys/devices/system/cpu/cpufreq/interactive/min_sample_time
-    chown -h system /sys/devices/system/cpu/cpufreq/interactive/target_loads
-    chown -h system /sys/devices/system/cpu/cpufreq/interactive/timer_slack
+    chown -h system /sys/devices/system/cpu/cpufreq/ondemand/sampling_rate
+    chown -h system /sys/devices/system/cpu/cpufreq/ondemand/sampling_down_factor
+    chown -h system /sys/devices/system/cpu/cpufreq/ondemand/io_is_busy
     write /sys/module/cpu_boost/parameters/boost_ms 20
     write /sys/module/cpu_boost/parameters/sync_threshold 1242000
     write /sys/module/cpu_boost/parameters/input_boost_freq 1134000
