@@ -88,6 +88,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Misc
 USE_SET_METADATA := false
+BOARD_SUPPRESS_SECURE_ERASE := true
 
 # inherit from the proprietary version
 -include vendor/htc/s4-common/BoardConfigVendor.mk
